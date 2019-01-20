@@ -23,7 +23,7 @@ function Tree() {
 			foodBox.className = "draggable";
 			foodBox.style.position = "absolute";
 			foodBox.style.bottom = "20px";
-			foodBox.style.left = getRandomInt(vw) + "px";
+			foodBox.style.left = getRandomInt(vw) - 120 + "px";
 
 			var food = document.createElement("img");
 			var foodNum = getRandomInt(foodImgs.length);
